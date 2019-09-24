@@ -1,0 +1,237 @@
+@import 'settings';
+@import 'foundation-emails';
+@import 'template/template';
+
+html{
+    font-family: $body-font-family;
+}
+.orange{
+    background-color: $orange-color;
+    padding: 20px;
+    padding-bottom: 20px;
+    height: 50px;
+    a{
+        color: #ffffff;
+        text-decoration-line: underline;
+        font-size: 10px;
+        font-weight: 700;
+ }
+
+th.large-6 {
+    width: auto;
+}
+
+th.columns.last{
+    margin-bottom: 10px;
+    margin-top: 20px;
+    float: right;
+    padding-right: 16px
+}
+
+}
+
+th.columns.first{
+    float: left;
+    padding-right: 0;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.header{
+    background-color: $white;
+    h3, a{
+        font-size: 12px;
+        margin-bottom: 4px;
+    }
+    a{
+        text-decoration-line: underline; 
+        color: $black; 
+        margin-top: -4px;
+    }
+    .pink{
+        color: $color-pink;
+        margin-bottom: 12px;  
+    }
+}
+
+.title{
+    background-color: #fec65796;
+    padding: 30px;
+    padding-left: 20px;
+
+    p{
+        font-size: 12px;
+        color: $black;
+        padding-right: 28px;
+    }
+    h1{
+        color: $titlecolor;
+        font-size: 28px;
+        font-weight: 500;
+        padding-right: 24px;
+    }
+    span{
+        font-weight: 900;
+    }
+}
+
+.body-header{
+    padding-left: 20px;
+    h2{
+        font-size: 18px;
+        color: $orange-color;
+        font-weight: 800;
+        margin-top: 38px;
+        padding-left: 20px;
+    }
+    p{
+        font-size: 12px;
+        color: $black;
+        margin-top: 14px;
+        padding-left: 20px;
+    }
+    th img{
+        width: 145px;
+        margin-top: 30px;
+        -webkit-box-shadow: 7px 8px 11px -8px rgba(0,0,0,0.75);
+        -moz-box-shadow: 7px 8px 11px -8px rgba(0,0,0,0.75);
+        box-shadow: 7px 8px 11px -8px rgba(0,0,0,0.75);
+        }  
+}
+
+table.button table td a {
+    background-color: $orange-color;
+    border-radius: 6px;
+    color: #fefefe;
+    font-size: 10px;
+    padding: 10px;
+    margin-top: 0;
+}
+
+table.button table td{
+    text-align: none;
+    color: #fefefe; 
+    background:none; 
+    border: none;
+}
+
+.warning{
+    padding-left: 10px;
+    padding-right: 10px;
+    h5{
+        color: $orange-color;
+        font-size: 10px;
+        font-weight: 700;
+        display: inline;
+    }
+    span{
+        text-transform: uppercase;
+    }
+    p{
+        font-size: 10px;
+        color: $black;
+        display: inline;
+    }
+    h6{
+        font-weight: 700;
+        font-size: 10px;
+        display: inline;
+    }
+    a{
+        color: $orange-color !important; 
+        text-decoration: underline;
+    }
+
+}
+
+th.columns.first {
+    padding-right: 34px;
+    padding-left: 34px;
+}
+
+.dmd_footer{
+    border-top: solid 1px $black;
+    padding-right: 20px;
+    padding-left: 20px;
+    p{
+        font-size: 10px;
+        color: $black;
+        display: inline;
+    }
+    h4{
+        font-size: 10px;
+        color: $black;
+        margin-bottom: 0;
+    }
+    h6{
+        font-weight: 700;
+        font-size: 10px;
+        margin-bottom: 0;
+    }
+    a{
+        font-size: 10px;
+        color: $black; 
+        text-decoration: underline;
+        line-height: 34px;
+
+    }
+}
+
+.footer-img{
+    border-top: solid 1px $black;
+       .margin_left{
+             margin-left: -70px;
+    }
+    .margin_right{
+        margin-left: 112px;
+       }
+
+    }
+    
+table.row.footer-img{
+    margin: 0 auto;
+    width: 88%;
+}
+table.row.dmd_footer{
+    margin: 0 auto;
+    width: 88%;
+}
+
+
+.footer-text{
+    th.columns.first{
+        margin: 0;
+    }
+    h5{
+        font-size: 12px;
+    }
+}
+
+// @media only screen and (max-width: 596px){
+//     .margin_right{
+//         display: none;
+// }
+//     .margin_left{
+//         display: none;
+//     }
+//     .margin_left-pequenna{
+//         display: block;
+//         margin: 0 auto;
+//     }
+// }
+
+// @media only screen and (min-width: 596px){
+//     .margin_right{
+//         display: block;
+//         margin-left: -70px;
+//     }
+//     .margin_left-grande{
+//         display: none;
+//     }
+
+//     .margin_right-pequenna{
+//         display: none;
+//     }
+
+// }
+
